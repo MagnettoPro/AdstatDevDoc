@@ -14,5 +14,5 @@ https://client.adstat.pro/api/v2/login/
 Чтобы сформировать запрос к определенному ресурсу API, необходимо предоставить информацию в заголовках запроса, позволяющую идентифицировать пользователя. Список обязательных параметров: <br>
 + В <b>HTTP</b> запросах :`Authorization: Bearer <access_token>` <br>
 
-Как получить `Bearer-token` описано в разделе [Авторизация](../api-methods/authorization.md)
+Получение `Bearer-token` описано в разделе [Авторизация](../api-methods/authorization.md)
 :::

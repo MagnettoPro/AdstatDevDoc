@@ -3,7 +3,7 @@
 
 
 ::: info
-Формирование запроса на стороне пользователя - запросы к Adstat.pro API выполняются через HTTPS и должны быть представлены в форме: `https://client.adstat.pro/api/METHOD_NAME`. Например:
+Формирование запроса на стороне пользователя - запросы к Adstat.pro API выполняются через HTTPS и должны быть представлены в форме: `https://client.adstat.pro/api/METHOD_NAME`, например: 
 
 ```http request
 https://client.adstat.pro/api/v2/login/

@@ -32,4 +32,4 @@ jobs:
           cname: developers.adstat.pro
 
       - name: Add CNAME file
-        run: echo 'developers.adstat.pro' > ./dist/CNAME
+        run: echo 'developers.adstat.pro' > ./CNAME

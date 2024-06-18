@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Create CNAME file
-        run: echo 'your-custom-domain.com' > ./docs/.vitepress/dist/CNAME
+        run: echo 'developers.adstat.pro' > ./docs/.vitepress/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

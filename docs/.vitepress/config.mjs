@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Главная', link: '/' },
       { text: 'Начало работы', link: '/get-started/get-started' },
       {
-        text: '1.0.0',
+        text: '1.0',
         items: [
           { text: 'Swagger scheme', link: 'https://client.adstat.pro/api/docs' },
           { text: 'OpenApi.json', link: 'https://client.adstat.pro/api/openapi.json' },

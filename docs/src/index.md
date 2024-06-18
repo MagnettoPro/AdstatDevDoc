@@ -4,8 +4,8 @@ layout: home
 titleTemplate: Полезная информация
 
 hero:
-  name: "Adstat Developer Portal"
-  text: "Добро пожаловать в документацию для разработчиков"
+  name: "Adstat Developer"
+  text: "Документация для разработчиков"
   
 
 features:

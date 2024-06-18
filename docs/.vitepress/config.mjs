@@ -14,7 +14,8 @@ export default defineConfig({
       {
         text: '1.0.0',
         items: [
-          { text: 'Swagger', link: 'https://client.adstat.pro/api/docs' },
+          { text: 'Swagger scheme', link: 'https://client.adstat.pro/api/docs' },
+          { text: 'OpenApi.json', link: 'https://client.adstat.pro/api/openapi.json' },
         ]
       }
     ],

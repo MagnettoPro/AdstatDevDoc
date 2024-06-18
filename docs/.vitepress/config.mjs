@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   cleanUrls: true,
-  title: "Adstat Docs",
-  description: "Добро пожаловать в Adstat Docs",
+  title: "Adstat Developers Portal",
+  description: "Добро пожаловать в Adstat Developers Portal",
   base: "/",
   srcDir: "src",
   themeConfig: {

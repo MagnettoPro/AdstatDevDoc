@@ -5,7 +5,7 @@ export default defineConfig({
   cleanUrls: true,
   title: "Adstat Docs",
   description: "Добро пожаловать в Adstat Docs",
-  base: "/AdstatDevDoc/",
+  base: "/",
   srcDir: "src",
   themeConfig: {
     nav: [

@@ -30,7 +30,7 @@ __Пример успешного ответа:__
 {
   "data": [
     {
-      "id": 1364755,
+      "id": 1364756,
       "account_name": "SOME_test",
       "campaign_name": "Default",
       "advertisement_title": "example title",

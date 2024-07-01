@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
@@ -28,7 +28,7 @@ export default defineConfig({
         text: 'Начало работы',
         items: [
           { text: 'Параметры подключения', link: '/get-started/get-started' },
-        ]
+                  ]
       },
       {
         text: 'Методы API',
@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Статистика', link: '/api-methods/statistics' },
           { text: 'Кампании', link: '/api-methods/campaigns' },
           { text: 'Объявления', link: '/api-methods/advertisements' },
+          { text: 'Скачать обьявления в .xlsx файл', link: '/api-methods/create_advertisements_xlsx' },
         ]
       }
     ],

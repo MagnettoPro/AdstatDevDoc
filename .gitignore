@@ -1,4 +1,4 @@
-# Ignore pnpm lock file
+ # Ignore pnpm lock file
 pnpm-lock.yaml
 
 # Ignore node_modules directory

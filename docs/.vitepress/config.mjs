@@ -39,7 +39,7 @@ export default defineConfig({
           { text: 'Статистика', link: '/api-methods/statistics' },
           { text: 'Кампании', link: '/api-methods/campaigns' },
           { text: 'Объявления', link: '/api-methods/advertisements' },
-          { text: 'Скачать обьявления в .xlsx файл', link: '/api-methods/create_advertisements_xlsx' },
+          { text: 'Скачать обьявления в .csv файл', link: '/api-methods/create_advertisements_csv' },
         ]
       }
     ],

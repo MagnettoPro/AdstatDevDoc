@@ -1,8 +1,9 @@
 # Авторизация
 
-## Login
+## Авторизация в системе
 
-::: Авторизация в системе
+::: info
+Авторизация в системе
 
 
 
@@ -111,9 +112,10 @@ password=string
 обновления `<access_token>`
 :::
 
-## Access Token
+## <span id="new_access_token">Выписка нового токена access_token</span>
 
-::: Выписка нового токена access_token
+::: info 
+Выписка нового токена access_token
 
 _GET_ `v2/access-token`
 

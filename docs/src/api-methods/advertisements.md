@@ -3,7 +3,7 @@
 ## <span id="advertisements">Список объявлений</span>
 
 :::info
-_GET_ `v2/advertisement/?show_deleted=false&period=today&offset=0&limit=50&advertisement_titles=&campaign_names=`
+_GET_ `v2/advertisement/?period=today`
 :::
 
 ### Пример использования

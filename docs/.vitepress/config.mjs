@@ -7,6 +7,7 @@ export default defineConfig({
   description: "Добро пожаловать в Adstat Developers Portal",
   base: "/",
   srcDir: "src",
+  lastUpdated: true,
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
@@ -64,5 +65,8 @@ export default defineConfig({
         },
       },
     },
+    footer: {
+      copyright: '© 2024 Adstat.pro '
+    }
   },
 })

@@ -3,10 +3,10 @@
 
 При помощи логина и пароля можно запросить access token и refresh token через соответствующий эндпоинт API.
 
-- `Access token` — это временный токен, который используется для авторизации в API-запросах. Он передаётся в заголовке Authorization в формате Bearer <access_token>.
-- `Refresh token` — это токен, который используется для получения нового access token, когда срок действия текущего access token истекает.
+- `Access token` — это временный токен, который используется для авторизации в API-запросах. Он передаётся в заголовке `Authorization` в формате `Bearer <access_token_value>`.
+- `Refresh token` — это токен, который используется для получения нового access token, когда срок действия текущего access token истекает. Он передаётся в заголовке `refresh_token` в формате `<refresh_token_value>`
 
-Как получить первично access && refresh токен описано [тут](../api-methods/authorization)
+Как получить первично access & refresh токен описано [тут](../api-methods/authorization)
 
 Процесс авторизации:
 1. `Аутентификация`: Отправка логина и пароля в API для получения access token и refresh token.
@@ -17,7 +17,7 @@
 
 Время жизни токенов:
 - `access_token` = 1 час
-- `refresh_token` = месяц
+- `refresh_token` = 30 дней
 
 Когда время жизни access_token истекло, можно выписать новые:
 Как выписать новые токены описано [тут](../api-methods/authorization#access-token)

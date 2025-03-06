@@ -5,68 +5,10 @@
 ::: info
 Авторизация в системе
 
-
-
-<details>
-    <summary>
-        <code>POST auth/jwt/login</code> 
-        Устаревшая версия ⚠️<br>
-        <em>Будет отключено: 01.02.2025</em>
-    </summary>
-
-</details>
-
-<br>
-
 <details>
     <summary>
         <code>POST v2/login</code> 
-        Устаревшая версия ⚠️ Request Body️<br>
-        <em>Будет отключено: 01.02.2025</em>
-    </summary>
-
-```http request
-https://client.adstat.pro/api/v2/login
-```
-
-**Request body JSON**
-
-| Параметр   | Тип    | Описание            |
-|------------|--------|---------------------|
-| `login`    | string | Логин пользователя  |
-| `password` | string | Пароль пользователя |
-
-**Content-Type:**
-
-- `application/json`
-
-**Request:**
-
-```json
-{
-  "login": "user@example.com",
-  "password": "string"
-}
-```
-
-**Response:**
-
-```json
-{
-  "user_id": "3fa85f64-5717-4562-b3fc-2c922263f66a",
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
-  "refresh_token": "dGhpcyBpcyBhIHJlZnJlc2ggdG9rZW4gdXNlZCB0byBnZXQgYW4gbmV3IGFjY2VzcyB0b2tlbiB3aGVuIHRoZSBjdXJyZW50IGFjY2VzcyB0b2tlbiBleHBpcmVz"
-}
-```
-
-</details>
-
-<br>
-
-<details>
-    <summary>
-        <code>POST v2/login</code> 
-        Актуальная версия️<br>
+        Метод авторизации<br>
     </summary>
 
 ```http request
